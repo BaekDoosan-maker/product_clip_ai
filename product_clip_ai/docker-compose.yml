@@ -1,0 +1,48 @@
+version: '3.8'
+
+services:
+  clip-tester:
+    build: .
+    container_name: clip_similarity_tester
+    volumes:
+      - ./clip_test_data:/app/clip_test_data
+    environment:
+      - PYTHONUNBUFFERED=1
+      - SRC_DB_HOST=${SRC_DB_HOST}
+      - SRC_DB_PORT=${SRC_DB_PORT}
+      - SRC_DB_NAME=${SRC_DB_NAME}
+      - SRC_DB_USER=${SRC_DB_USER}
+      - SRC_DB_PASS=${SRC_DB_PASS}
+    depends_on:
+      postgres:
+        condition: service_healthy
+    deploy:
+      resources:
+        limits:
+          cpus: '8'  # Core Ultra 5 125H - 필요에 따라 조정
+          memory: 8G
+
+  postgres:
+    build:
+      context: ./docker/postgres
+      dockerfile: Dockerfile
+    container_name: shopping_mall_db
+    environment:
+      POSTGRES_DB: ${SRC_DB_NAME}
+      POSTGRES_USER: ${SRC_DB_USER}
+      POSTGRES_PASSWORD: ${SRC_DB_PASS}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${SRC_DB_USER} -d ${SRC_DB_NAME}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+    restart: unless-stopped
+
+volumes:
+  postgres-data:
+    driver: local

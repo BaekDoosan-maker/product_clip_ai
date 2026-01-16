@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a728daec-2dea-4bcf-8b5f-39d1c0616035" name="변경" comment="feat: 유사도 검색 후 랭킹 정보 api 반환 값에 포함되도록 적용" />
+    <list default="true" id="a728daec-2dea-4bcf-8b5f-39d1c0616035" name="변경" comment="feat: 유사 이미지 검색 ai 모델 활용, 이미지 검색 api 구현">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_clip_ai/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_clip_ai/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_clip_ai/db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_clip_ai/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_clip_ai/docker/postgres/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_clip_ai/docker/postgres/init-db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_clip_ai/docker/postgres/init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_clip_ai/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_clip_ai/scripts/sync_vectors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_clip_ai/test_api_upload.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_clip_ai/test_clip_similarity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_clip_ai/test_clip_similiarity2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_clip_ai_dotgit_backup/info/exclude" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_clip_ai" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,54 +37,54 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/product_clip_ai" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "BaekDoosan-maker"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;BaekDoosan-maker&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/dsjm-ourspace/product_clip_ai.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/BaekDoosan-maker/product_clip_ai.git&quot;,
     &quot;accountId&quot;: &quot;bc37c8d2-9be7-469f-b496-7c25e369f092&quot;
   }
 }</component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 6
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="38KdEdVgMA513qBjynpicZP3hs7" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\doosa\OneDrive\바탕 화면\product_clip_ai\product_clip_ai" />
@@ -95,7 +114,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1768552088256</updated>
-      <workItem from="1768552090825" duration="12298000" />
+      <workItem from="1768552090825" duration="12654000" />
     </task>
     <task id="LOCAL-00002" summary="feat: db 에 저장된 상품 이미지에서 유사도 검색을 진행하도록 수정">
       <option name="closed" value="true" />
@@ -153,7 +172,71 @@
       <option name="project" value="LOCAL" />
       <updated>1768564635922</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: 유사도 검색 시 , 상품 테이블에서 is_active 가 false 인 삭제된 상품은 제외하고 비교 검색 하도록 수정">
+      <option name="closed" value="true" />
+      <created>1768568838319</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1768568838319</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: 백업">
+      <option name="closed" value="true" />
+      <created>1768569038049</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1768569038049</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: 백업">
+      <option name="closed" value="true" />
+      <created>1768569605621</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1768569605621</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: 백업">
+      <option name="closed" value="true" />
+      <created>1768569780445</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1768569780445</updated>
+    </task>
+    <task id="LOCAL-00013" summary="feat: 백업">
+      <option name="closed" value="true" />
+      <created>1768569927541</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1768569927541</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat: 백업 및 로깅 코드 제거">
+      <option name="closed" value="true" />
+      <created>1768570551517</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1768570551517</updated>
+    </task>
+    <task id="LOCAL-00015" summary="feat: gitignore 설정">
+      <option name="closed" value="true" />
+      <created>1768572714602</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1768572714602</updated>
+    </task>
+    <task id="LOCAL-00016" summary="feat: 유사 이미지 검색 ai 모델 활용, 이미지 검색 api 구현">
+      <option name="closed" value="true" />
+      <created>1768572900159</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1768572900159</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +259,13 @@
     <MESSAGE value="feat: gitignore 설정 수정" />
     <MESSAGE value="feat: ai 유사도 검색을 이용한 이미지 검색 api 구현" />
     <MESSAGE value="feat: 유사도 검색 후 랭킹 정보 api 반환 값에 포함되도록 적용" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 유사도 검색 후 랭킹 정보 api 반환 값에 포함되도록 적용" />
+    <MESSAGE value="feat: 유사도 검색 시 , 상품 테이블에서 is_active 가 false 인 삭제된 상품은 제외하고 비교 검색 하도록 수정" />
+    <MESSAGE value="feat: 백업" />
+    <MESSAGE value="feat: 백업 및 로깅 코드 제거" />
+    <MESSAGE value="feat: gitignore 설정" />
+    <MESSAGE value="feat: README.md 작성" />
+    <MESSAGE value="feat: 유사 이미지 검색 ai 모델 활용, 이미지 검색 api 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 유사 이미지 검색 ai 모델 활용, 이미지 검색 api 구현" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

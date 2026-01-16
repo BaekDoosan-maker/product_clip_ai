@@ -1,0 +1,16 @@
+# Ignore local env file with secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+Thumbs.db
+.DS_Store
+

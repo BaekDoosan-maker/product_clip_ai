@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a728daec-2dea-4bcf-8b5f-39d1c0616035" name="변경" comment="feat: 유사도 검색 후 랭킹 정보 api 반환 값에 포함되도록 적용" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/product_clip_ai" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "BaekDoosan-maker"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/dsjm-ourspace/product_clip_ai.git&quot;,
+    &quot;accountId&quot;: &quot;bc37c8d2-9be7-469f-b496-7c25e369f092&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="38KdEdVgMA513qBjynpicZP3hs7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\doosa\OneDrive\바탕 화면\product_clip_ai\product_clip_ai" />
+      <recent name="C:\Users\doosa\OneDrive\바탕 화면\product_clip_ai\product_clip_ai\clip_test_data" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.28238.7" />
+        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-IU-252.28238.7" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task id="LOCAL-00001" summary="feat: 이미지 백터화 경로 수정 중">
+      <option name="closed" value="true" />
+      <created>1768486352132</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1768486352133</updated>
+    </task>
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="a728daec-2dea-4bcf-8b5f-39d1c0616035" name="변경" comment="feat: 이미지 백터화 경로 수정 중" />
+      <created>1768552088256</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1768552088256</updated>
+      <workItem from="1768552090825" duration="12298000" />
+    </task>
+    <task id="LOCAL-00002" summary="feat: db 에 저장된 상품 이미지에서 유사도 검색을 진행하도록 수정">
+      <option name="closed" value="true" />
+      <created>1768560389222</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1768560389222</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: db 에 저장된 상품 이미지에서 유사도 검색을 진행하도록 수정">
+      <option name="closed" value="true" />
+      <created>1768562280137</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1768562280137</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: gitignore 설정 수정">
+      <option name="closed" value="true" />
+      <created>1768562716926</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1768562716926</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: gitignore 설정 수정">
+      <option name="closed" value="true" />
+      <created>1768562993440</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1768562993440</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: gitignore 설정 수정">
+      <option name="closed" value="true" />
+      <created>1768563553122</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1768563553122</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: ai 유사도 검색을 이용한 이미지 검색 api 구현">
+      <option name="closed" value="true" />
+      <created>1768564129785</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1768564129785</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: 유사도 검색 후 랭킹 정보 api 반환 값에 포함되도록 적용">
+      <option name="closed" value="true" />
+      <created>1768564635922</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1768564635922</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: 이미지 백터화 경로 수정 중" />
+    <MESSAGE value="feat: db 에 저장된 상품 이미지에서 유사도 검색을 진행하도록 수정" />
+    <MESSAGE value="feat: gitignore 설정 수정" />
+    <MESSAGE value="feat: ai 유사도 검색을 이용한 이미지 검색 api 구현" />
+    <MESSAGE value="feat: 유사도 검색 후 랭킹 정보 api 반환 값에 포함되도록 적용" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 유사도 검색 후 랭킹 정보 api 반환 값에 포함되도록 적용" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>

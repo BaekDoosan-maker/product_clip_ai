@@ -4,25 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a728daec-2dea-4bcf-8b5f-39d1c0616035" name="변경" comment="feat: 유사 이미지 검색 ai 모델 활용, 이미지 검색 api 구현">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product_clip_ai/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product_clip_ai/api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product_clip_ai/db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product_clip_ai/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product_clip_ai/docker/postgres/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product_clip_ai/docker/postgres/init-db.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product_clip_ai/docker/postgres/init.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product_clip_ai/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product_clip_ai/scripts/sync_vectors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product_clip_ai/test_api_upload.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product_clip_ai/test_clip_similarity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product_clip_ai/test_clip_similiarity2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product_clip_ai_dotgit_backup/info/exclude" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+    <list default="true" id="a728daec-2dea-4bcf-8b5f-39d1c0616035" name="변경" comment="feat: pytorch 설정 수정 , 유사도 낮은 이유 수정">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_clip_ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_clip_ai/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/product_clip_ai/api.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,7 +220,23 @@
       <option name="project" value="LOCAL" />
       <updated>1768572900159</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="feat: pytorch 설정 수정 , 유사도 낮은 이유 수정">
+      <option name="closed" value="true" />
+      <created>1768682781882</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1768682781882</updated>
+    </task>
+    <task id="LOCAL-00018" summary="feat: pytorch 설정 수정 , 유사도 낮은 이유 수정">
+      <option name="closed" value="true" />
+      <created>1768683464161</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1768683464161</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +265,8 @@
     <MESSAGE value="feat: gitignore 설정" />
     <MESSAGE value="feat: README.md 작성" />
     <MESSAGE value="feat: 유사 이미지 검색 ai 모델 활용, 이미지 검색 api 구현" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 유사 이미지 검색 ai 모델 활용, 이미지 검색 api 구현" />
+    <MESSAGE value="feat: pytorch 설정 수정 , 유사도 낮은 이유 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: pytorch 설정 수정 , 유사도 낮은 이유 수정" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

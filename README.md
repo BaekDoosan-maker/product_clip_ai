@@ -1,22 +1,85 @@
-# 플로팅 버튼 
-— 유사 이미지 검색 기능 적용
+# 🔍 CLIP ai 모델 기반 유사 이미지 검색 – 상품 추천 시스템
 
-- 프론트 적용 화면 시연 영상 유투브 링크
-https://youtu.be/vjYvLGr6iPM
+> **패스트캠퍼스 AI 해커톤**  
+> *OpenAI CLIP을 활용한 이미지 기반 유사 상품 검색 시스템*
 
-설명
+---
 
-- 화면의 상품 카드에 표시된 플로팅(돋보기) 버튼을 누르면 해당 상품 이미지를 서버로 업로드해 유사 이미지 검색을 수행하고, 결과를 모달로 보여줍니다.
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/9d9ff6f9-2274-4f7c-9790-c65872c8ec65" />
+## 📌 프로젝트 개요
 
+본 프로젝트는 **이커머스 환경에서 이미지 기반 상품 검색 기능**을 구현한 시스템입니다.  
+기존의 텍스트 중심 검색 방식에서 벗어나, 사용자가 **상품 이미지를 기준으로 시각적으로 유사한 상품을 탐색할 수 있도록 설계**되었습니다.
 
+이 기능은 다음과 같은 목표를 가지고 개발되었습니다.
 
-- 모달에는 유사 이미지들의 썸네일과(가능하면) 매칭된 상품 정보(name, price)를 표시합니다. 
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/263e2469-733b-4687-83b9-aca83a8ed57b" />
+- 상품 탐색 경험 개선
+- 텍스트 검색 의존도 감소
+- 직관적인 시각 기반 탐색 제공
+- 사용자 경험(UX) 향상
 
+---
 
-- 상품 정보를 클릭하면 상품 상세 페이지로 이동합니다.
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/975590c4-d9bf-4e10-8ebb-5f942896ef6e" />
+## 🎯 주요 기능
+
+### 🖼️ 상품 카드 기반 이미지 검색
+
+카테고리 페이지의 각 상품 카드에는 **플로팅 돋보기 아이콘**이 표시됩니다.
+
+사용자가 해당 버튼을 클릭하면:
+
+1. 선택한 상품 이미지가 서버로 업로드됨  
+2. CLIP 모델을 이용해 이미지 임베딩 생성  
+3. 벡터 유사도 기반 검색 수행  
+4. 유사한 상품 목록을 모달 형태로 표시  
+
+---
+
+## 📱 UI / UX 흐름
+
+### 1) 상품 목록 화면
+사용자는 일반적인 상품 목록을 탐색하며, 각 상품 카드에서 이미지 검색 버튼을 사용할 수 있습니다.
+
+![Product List UI](https://github.com/user-attachments/assets/9d9ff6f9-2274-4f7c-9790-c65872c8ec65)
+
+---
+
+### 2) 유사 이미지 검색 결과 모달
+
+검색 결과는 모달 창에 표시되며 다음 정보를 포함합니다:
+
+- 상품 썸네일  
+- 상품명  
+- 가격  
+- 유사도 기반 정렬  
+
+![Similar Results Modal](https://github.com/user-attachments/assets/263e2469-733b-4687-83b9-aca83a8ed57b)
+
+---
+
+### 3) 상품 상세 페이지 이동
+
+유사 추천 상품을 클릭하면 해당 상품의 상세 페이지로 이동합니다.
+
+![Product Detail Page](https://github.com/user-attachments/assets/975590c4-d9bf-4e10-8ebb-5f942896ef6e)
+
+---
+
+## 🎥 데모
+
+- **라이브 데모:** https://dsjm-fe.vercel.app/category/CAT001?subCategory=SUB002&page=1  
+- **YouTube 시연 영상:** https://youtu.be/vjYvLGr6iPM  
+
+---
+
+## 🧠 기술적 접근
+
+### 이미지 임베딩 (CLIP)
+- OpenAI의 **CLIP 모델**을 사용하여 상품 이미지의 임베딩 벡터를 생성
+- 모든 상품 이미지는 사전에 임베딩되어 벡터 DB에 저장됨
+
+### 유사도 검색
+- 코사인 유사도를 활용한 벡터 기반 검색
+- 상위 5개의 유사 상품을 실시간으로 반환
 
 
 

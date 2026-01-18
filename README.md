@@ -11,3 +11,6 @@
 
 - 상품 정보를 클릭하면 상품 상세 페이지로 이동합니다.
 <img width="1909" height="903" alt="image" src="https://github.com/user-attachments/assets/0b9d2741-f38f-4396-ba5b-e6441229e952" />
+
+- 프론트 적용 화면 시연 영상 유투브 링크
+https://youtu.be/vjYvLGr6iPM
